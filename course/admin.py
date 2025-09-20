@@ -28,7 +28,7 @@ class EnrollmentInline(admin.TabularInline):
     model = Enrollment
     form = EnrollmentForm
     extra = 1
-    autocomplete_fields = ['student']  # search students when many exist
+    autocomplete_fields = ['student'] 
 
 
 @admin.register(Course)
